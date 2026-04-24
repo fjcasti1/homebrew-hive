@@ -2,8 +2,7 @@
 
 [![Powered By: GoReleaser](https://img.shields.io/badge/powered%20by-goreleaser-green.svg?style=flat-square)](https://github.com/goreleaser)
 
-Homebrew tap for [hive](https://github.com/fjcasti1/hive), the tmux session manager for AI agents. Agents notify you when they need attention; you jump to
-the waiting session, give feedback, and the queue clears automatically.
+Homebrew tap for [hive](https://github.com/fjcasti1/hive), the tmux session manager for AI agents. Agents notify you when they need attention; you jump to the waiting session, give feedback, and the queue clears automatically.
 
 ## Install
 
