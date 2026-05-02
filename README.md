@@ -12,5 +12,6 @@ brew install fjcasti1/hive/hive
 
 Upgrade
 ```
+brew update
 brew upgrade fjcasti1/hive/hive
 ```
