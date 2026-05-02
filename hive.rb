@@ -5,21 +5,21 @@
 class Hive < Formula
   desc "Manage multiple AI agent sessions in tmux"
   homepage "https://github.com/fjcasti1/hive"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/fjcasti1/hive/releases/download/v1.1.0/hive_darwin_amd64.tar.gz"
-      sha256 "27ce5fe1fe0832edd3ef0b189f20a5065fa694e5c8214ff7a4ccb0a797e02d93"
+      url "https://github.com/fjcasti1/hive/releases/download/v1.2.0/hive_darwin_amd64.tar.gz"
+      sha256 "03aa4753b0e066e3aa8a3e71b397279d4e21b1c083f76586386f771b137ecb72"
 
       define_method(:install) do
         bin.install "hive"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/fjcasti1/hive/releases/download/v1.1.0/hive_darwin_arm64.tar.gz"
-      sha256 "0576cbd2bb9ad1043aa9c13e3f08d4f661a612a3d8d52843f9e64daaba7afc1d"
+      url "https://github.com/fjcasti1/hive/releases/download/v1.2.0/hive_darwin_arm64.tar.gz"
+      sha256 "6d82339518a00b765863abfee207064828f3a7b33619f7bc4b4da10d724103ce"
 
       define_method(:install) do
         bin.install "hive"
@@ -29,15 +29,15 @@ class Hive < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/fjcasti1/hive/releases/download/v1.1.0/hive_linux_amd64.tar.gz"
-      sha256 "612657b5a566499f9b3ecb87aef8aceb81a315147c1303f56f79d76e6e7e2521"
+      url "https://github.com/fjcasti1/hive/releases/download/v1.2.0/hive_linux_amd64.tar.gz"
+      sha256 "a62995c26acb1b300960f71e0ec858b0a69db4429f7ac55e144e5975f50a619f"
       define_method(:install) do
         bin.install "hive"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/fjcasti1/hive/releases/download/v1.1.0/hive_linux_arm64.tar.gz"
-      sha256 "d17bf8f9ac865c506de1f53436d2a99439a20be678b2ca367c2a842b57300d41"
+      url "https://github.com/fjcasti1/hive/releases/download/v1.2.0/hive_linux_arm64.tar.gz"
+      sha256 "ba1f7a45a1d1f6f719b7f601d7c65df9d528ed6898954c2a1d569ec34f199be0"
       define_method(:install) do
         bin.install "hive"
       end
